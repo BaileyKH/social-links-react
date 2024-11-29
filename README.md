@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/BaileyKH/social-links-react](https://github.com/BaileyKH/social-links-react)
+- Live Site URL: [https://social-links-react-topaz.vercel.app/](https://social-links-react-topaz.vercel.app/)
 
 ## My process
 
