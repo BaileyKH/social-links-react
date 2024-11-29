@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Inter-Regular.ttf') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/Inter-SemiBold.ttf') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/Inter-Bold.ttf') format('woff2'); 
+}
+
+@layer base {
+  body {
+    @apply bg-greyNine text-white font-inter text-sm
+  }
+
+  .social-links {
+    @apply bg-greySeven font-semibold text-center text-sm w-full rounded-md my-1.5 py-3 hover:bg-accentGreen hover:text-greySeven transition-all duration-300 ease-in-out
+  }
+}
